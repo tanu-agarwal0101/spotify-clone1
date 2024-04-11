@@ -379,14 +379,28 @@ hr{
     }
     
 }
-@media screen and (max-height:620px) {
+@media screen and (max-height:712px) {
     footer{
-        position: relative;        
+        position: relative;  
+        bottom:0;
     }
+    .sidebar .bottom, .top{        
+        height: fit-content;
+            }
 }
 @media screen and (min-width:600px){
     .btns{
         position: fixed;
         right: 10px;
     }    
+}
+@media screen and (max-width:700px) {
+    .sidebar .bottom, .top{        
+        height: fit-content;
+            }
+   .sidebar .bottom .cont{
+        height: 50px;
+        
+    } 
+
 }
