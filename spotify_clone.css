@@ -350,6 +350,10 @@ hr{
     color: var(--light);
     margin-left: 40px;
 }
+.icons{
+    margin-left: 20px;
+    padding: 10px;    
+}
 .icons button{
     color: var(--white);
     width: 40px;
