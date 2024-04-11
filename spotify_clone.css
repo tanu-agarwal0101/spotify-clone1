@@ -58,10 +58,17 @@ header{
 }
 .left{
     width: 90%;
-    color: #b3b3b3;    
+    color: #b3b3b3;  
+    font-size: 16px;  
 }
 .sidebar .left:hover{
-    color: white;
+    color: var(--white);
+}
+.sidebar .head .right{
+    color: #b3b3b3;
+   }
+.right i:hover{
+    color: var(--white);
 }
 
 i{
@@ -100,10 +107,12 @@ button:hover{
 }
 .cont{
     margin-top: 1rem;
-    overflow-y:scroll;
+    overflow-y:hidden;
     height: 15rem;
-    margin-bottom: 1rem;
-      
+    margin-bottom: 1rem;     
+}
+.cont:hover{
+    overflow-y: scroll;
 }
 .search{
 color: #b3b3b3;
