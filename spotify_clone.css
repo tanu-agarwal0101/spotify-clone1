@@ -185,7 +185,7 @@ footer{
 }
 .log{
     display: flex;
-    background-color: var(--grey);
+    background-color: rgb(23, 22, 22);
     padding: 15px 30px;
     justify-content: space-between;
     position: fixed;
@@ -248,6 +248,7 @@ ul{
     font-size: 25px;
     margin-bottom: 5px;
     padding-top: 5px;
+    padding-left: 10px;
 }
 .first{
     
