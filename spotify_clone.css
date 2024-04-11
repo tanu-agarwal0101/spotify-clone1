@@ -1,22 +1,17 @@
 :root{
     --white:#fff;
     --black:#000;
-    /* --grey:#1f1d1d; */
     --grey:#121212;
-
     --light-grey:#383636;
     --blue:#0095f6;
     --dark:rgb(38, 33, 33);
     --light:rgb(125, 117, 117);
 }
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700 */
+
 button{
-    border: none;
-}
+    border: none;}
 *{
   font-family: "Signika", sans-serif;
-     
 }
 
 html, body{
@@ -82,13 +77,11 @@ i{
    
 }
 .content{
-    /* line-height: 10%; */
     background-color: var(--dark);
     border-radius: 0.5rem;
     margin: 1rem 0;
     margin-right: 0.5rem;
-    padding: 0.6rem ;
-    
+    padding: 0.6rem ;    
 }
 button:hover{
     cursor: grab;
@@ -143,6 +136,7 @@ a{
 }
 
 /* footer */
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -167,6 +161,7 @@ footer{
 }
 
 /* main */
+
 .main{
     background-color: var(--grey);
     color: var(--white);
@@ -316,6 +311,7 @@ ul{
     opacity: 0;
     transition: all ease 0.5s;
 }
+/* hovering effect of play button  */
 .play .fa:hover{
     opacity: 1;
     transform: translateY(-20px);
@@ -334,10 +330,7 @@ ul{
     gap: 60px;
     
 }
-/* .icons{
-    margin-left: 50px;
-    gap: 40px;
-} */
+
 .about li{
     color: var(--light);
 }
@@ -363,12 +356,12 @@ hr{
     background-color: var(--light);
 }
 
+/* responsiveness  */
+
 @media screen and (max-width:400px) {
     body,html{
         overflow: scroll;
-    }
-    
-    
+    } 
     .log{
         justify-content: space-between;
         /* display:; */
@@ -380,15 +373,12 @@ hr{
 }
 @media screen and (max-height:620px) {
     footer{
-        position: relative;
-        
+        position: relative;        
     }
-    
 }
 @media screen and (min-width:600px){
     .btns{
         position: fixed;
         right: 10px;
-    }
-    
+    }    
 }
