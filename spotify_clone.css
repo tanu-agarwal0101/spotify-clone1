@@ -379,7 +379,7 @@ hr{
     }
     
 }
-@media screen and (max-height:612px) {
+@media screen and (max-height:600px) {
     footer{
         position: relative;  
         bottom:0;
@@ -391,7 +391,7 @@ hr{
         height: fit-content;
             }
 }
-@media screen and (min-width:600px){
+@media screen and (min-width:612px){
     .btns{
         position: fixed;
         right: 10px;
@@ -415,9 +415,7 @@ hr{
         margin-right: 10px; 
         width: 350px;      
     }
-    .main{
-        margin-bottom: 10px;
-    }
+   
     .bot{        
         width: fit-content;
     }
