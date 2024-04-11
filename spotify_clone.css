@@ -402,8 +402,16 @@ hr{
     .sidebar .bottom, .top{        
         height: fit-content;
             }
+    .sidebar .bottom{
+        
+        height: 350px;
+    }
+    .sidebar .bottom .content{
+        height: auto;
+        
+    }
    .sidebar .bottom .cont{
-        height: 50px;
+        height: 70px;
         
     } 
     .main{
